@@ -1,5 +1,6 @@
 from flask import Flask
 from flask import request
+import json
 
 app = Flask(__name__)
 
@@ -19,7 +20,9 @@ def post():
 		pres = act
 	print(ant)
 	print(pres)
-	return 'JSON posted'
+	resp = {'n-1': ant,'n':act}
+	rjson = json.dumps(resp)
+	return rjson
 
 app.run(host='0.0.0.0', port=5000)
 
