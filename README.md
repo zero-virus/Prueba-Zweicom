@@ -3,7 +3,8 @@ Prueba de Zweicom
 
 
 ## Desarrollo
-El lenguaje utilizado es Python 2.7 con libreria Flask
+El lenguaje utilizado es Python 2.7 con libreria Flask.
+El objetivo es construir un servicio web que entregando un numero 'n' este retorne la posicion n y n-1 de la sucesion de Fibonacci, contando la primera posicion como la numero 0. La forma de entregar este numero es a travez de un JSON que lo contiene. 
 
 ### Prerrequisitos
 Instalar pip para luego instalar la libreria Flask
